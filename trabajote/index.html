@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>Formulario SQL</h1>
+    <!-- Formulario para agregar información -->
+    <form id="form-agregar">
+        <h2>Agregar Datos</h2>
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <button type="submit">Guardar</button>
+    </form>
+
+    <hr>
+
+    <!-- Sección para extraer / consultar información -->
+    <div>
+        <h2>Extraer Datos</h2>
+        <button id="btn-cargar">Cargar Datos</button>
+        <ul id="lista-datos"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
